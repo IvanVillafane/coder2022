@@ -1,0 +1,41 @@
+header {
+  background-color: #0389f7;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 0 5px rgb(211, 211, 211);
+}
+
+header a {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(148, 255, 144);
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header li a {
+  margin: 0 1rem;
+}
+
+header li a:hover {
+  text-decoration: underline;
+}
+
+header .input__busqueda {
+  width: 20rem;
+}
+
+@media only screen and (max-width: 500px) {
+  header .input__busqueda {
+    width: 12rem;
+  }
+}
